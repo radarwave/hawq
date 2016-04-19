@@ -78,8 +78,8 @@ OPTIONS
 
 --kerberos
 
- Use this option to specify HAWQ/HDFS/YARN enables Kerberos mode, so
- that hawq check can validate HAWQ/HDFS/YARN settings with Kerberos
+ Use this option to specify HDFS/YARN enables Kerberos mode, so
+ that hawq check can validate HDFS/YARN settings with Kerberos
  enabled.
 
 
