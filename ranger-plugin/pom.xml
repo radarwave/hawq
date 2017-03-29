@@ -39,6 +39,7 @@
         <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <build.suffix>_${hawq.name.version}</build.suffix>
+        <hawq.dep.name>hawq_${hawq.name.version}</hawq.dep.name>
         <destination.dir>/usr/local/hawq${build.suffix}/ranger</destination.dir>
     </properties>
 
@@ -81,7 +82,7 @@
                     <release>${release.version}%{?dist}</release>
                     <requires>
                         <require>bigtop-tomcat</require>
-                        <require>hawq_${hawq.name.version} &gt;= ${project.version}</require>
+                        <require>${hawq.dep.name} &gt;= ${project.version}</require>
                     </requires>
                     <mappings>
                         <mapping>
