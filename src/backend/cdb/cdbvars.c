@@ -169,7 +169,6 @@ bool gp_interconnect_cache_future_packets=true;
 
 int			Gp_udp_bufsize_k; /* UPD recv buf size, in KB */
 
-#ifdef USE_ASSERT_CHECKING
 /*
  * UDP-IC Test hooks (for fault injection).
  *
@@ -187,7 +186,6 @@ int gp_udpic_network_disable_ipv6 = 0;
  */
 
 int gp_fsys_fault_inject_percent = 0;
-#endif
 
 /*
  * Each slice table has a unique ID (certain commands like "vacuum analyze"
