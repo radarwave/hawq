@@ -1,5 +1,5 @@
 ![HAWQ](http://hawq.incubator.apache.org/images/logo-hawq.png)
-
+pr1393
 ---
 
 |CI Process|Status|
